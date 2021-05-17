@@ -14,7 +14,7 @@
     </parent>
     <groupId>spring.framework</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>pet-clinic</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -44,13 +44,14 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <scm>
         <developerConnection>scm:git:https://github.com/Priyanshu-git/pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
