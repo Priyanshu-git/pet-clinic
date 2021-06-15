@@ -9,6 +9,9 @@ uses technologies like Spring JPA, Hibernate, Thymeleaf and Project Lombok. Test
 JUnit 5, Mockito and [Circle CI](https://app.circleci.com/pipelines/github/Priyanshu-git/pet-clinic) for Continuous
 build integrations. The application is deployed on localhost:8080 using using Apache Tomcat Server.
 
+![](images/ss1.jpeg)
+![](images/ss2.jpeg)
+
 ## Prerequisites to run the app
 
 The following items should be installed in your system:
