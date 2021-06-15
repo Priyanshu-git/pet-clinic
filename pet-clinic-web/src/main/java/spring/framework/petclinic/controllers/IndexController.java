@@ -14,6 +14,7 @@ public class IndexController {
 
     @RequestMapping("/oups")
     public String oups(Model model){
-        return "not implemented";
+        model.addAttribute("message", "Error");
+        return "error";
     }
 }
